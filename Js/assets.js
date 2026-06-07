@@ -63,4 +63,4 @@ redes.innerHTML = `
 
 /* ===== PIE DE PÁGINA ===== */
 var pie = document.getElementById("piePagina");
-pie.innerHTML = `<p>Todos los derechos reservados &copy; Ulises Lopez Amezcua 2022</p>`;
+pie.innerHTML = `<p>Todos los derechos reservados &copy; Ulises Lopez Amezcua ${new Date().getFullYear()}</p>`;
